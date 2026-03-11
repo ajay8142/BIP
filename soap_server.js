@@ -37,7 +37,7 @@ xmlns:pub="http://xmlns.oracle.com/oxp/service/PublicReportService">
 
 </soapenv:Envelope>
 `;
-
+console.log("SOAP Request:");
 console.log(soapBody);
 const response = await axios.post(
 BIP_SOAP_URL,
